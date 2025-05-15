@@ -88,7 +88,7 @@ def main():
     piscine = 0
     valider = 0
     users = get_pool_users()
-    print("\nUtilisateurs actifs :")
+    print("\n\nUtilisateurs actifs :")
     for user in users:
         projets = user.get("projects_users", [])
         login = user["login"]
