@@ -4,19 +4,19 @@ Hello, voici un outil qui permet de vérifier l’avancement de ta piscine, mais
 Pour commencer, il est nécessaire de créer une application via l’API de 42 :
 Comment ça marche ? C’est simple, suis mes étapes.
 
-1. Connecte-toi à l’intra 42.
+1. Connectes-toi à l’intra 42.
 
-2. Clique sur ton nom en haut à droite, puis rends-toi dans les paramètres (settings).
+2. Cliques sur ton nom en haut à droite, puis rends-toi dans les paramètres (settings).
 
 3. Choisis « API » dans le menu de gauche.
 
-4. Clique sur « Register a new app » en haut à droite.
+4. Cliques sur « Register a new app » en haut à droite.
 
 5. Remplis seulement name : Checkeur_API et la redirect url : https://localhost.
 
 6. Tu peux maintenant (submit).
 
-Apres cela rentres dans ton aplication et recupere le UID et le secret. Nous en aurons besoin pour plus tard.
+Apres cela rentres dans ton aplication via l'Api dans setting que tu viens de creer et recuperes le UID et le secret. Nous en aurons besoin pour plus tard.
 
 Clones mon projet sur ton pc. Changes les droits du tokken.sh avec chmod par example (chmod 777 tokken.sh).
 
